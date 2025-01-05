@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Super Mario Bros</title>
+</head>
+<body>
+    <div class="video-mario-fundo">
+        <video src="videos/video.mp4" autoplay muted loop></video>
+            <div class="mascara-video"></div>
+    </div>
+
+    <div class="caixa-principal">
+        <img src="imagens/logo.png" alt="Logo do Super Mario Bros" class="logo-mario">
+
+        <p>Encanadores <b>Mario e Luigi</b> - Resolvendo seus problemas com estilo e criatividade!</p>
+        <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Somos os encanadores mais famosos do Reino dos Cogumelos!</p>
+
+        <button onclick="cliqueiNoBotao()">Fale com a gente</button>
+    </div>
+    <img src="imagens/mario.png" alt="Mario e Luigi sorrindo e com ferramentas nas mãos" class="mario-luigi-img">
+
+
+    <form class="fale-com-a-gente" action="https://formsubmit.co/felipe.agomesdelima@gmail.com" method="POST">
+        <input placeholder="Seu nome" type="text" name="Nome">
+        <input placeholder="Telefone de contato" type="tel" name="Telefone de contato">
+        <textarea placeholder="Digite seu problema detalhadamente aqui" name="info"></textarea>
+        <button onclick="sumirFormulario()">Enviar</button>
+    </form>
+
+    <div class="mascara-formulario"></div>
+    
+    </body>
+
+    <script>
+
+        let formulario = document.querySelector(".fale-com-a-gente")
+        let mascara = document.querySelector(".mascara-formulario")
+
+        function cliqueiNoBotao(){
+            formulario.style.left = "50vh"
+            mascara.style.visibility = "visible"
+        }
+
+        function sumirFormulario(){
+            formulario.style.left = "-320px"
+            mascara.style.visibility = "hidden"
+        }
+
+    </script>
+</html>

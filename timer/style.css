@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+}
+
+div {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    height: 3.5em;
+    width: 5.5em;
+    border: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.start-btn {
+    background-color: #008000;
+}
+
+.pause-btn {
+    background-color: #6c757d;
+}
+
+.stop-btn {
+    background-color: #bf0603;
+}

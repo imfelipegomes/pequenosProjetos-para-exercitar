@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Lora&family=Open+Sans&family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans';
+    font-size: x-large;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+main {
+    padding: 20px;
+    box-shadow: 0 1px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    padding: 5px;
+    outline: none;
+    accent-color: #16425b;
+    border-color: #16425b;
+}
+
+input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+}
+
+input[type=range] {
+    width: 90%;
+}
+
+button {
+    background-color: #16425b;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 5px;
+}

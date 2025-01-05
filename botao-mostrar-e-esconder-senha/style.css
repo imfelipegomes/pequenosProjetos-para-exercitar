@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #e63946;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 160px;
+    align-items: center;
+    color: #fff;
+}
+
+div {
+    position: relative;
+}
+
+input {
+    width: 250px;
+    line-height: 40px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    padding: 0px 50px 0px 20px;
+    border-radius: 10px;
+}
+
+div i{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    color: #8b8c89;
+}
