@@ -1,0 +1,1 @@
+Neste repositório, adiciono vários pequenos e médios projetos, com intuito de praticar, exercitar, melhorar as minhas habilidades técnicas. Utilizo aqui várias tecnologias nas quais vou aprendendo e me desenvolvendo. Também serve como um portfólio :)
